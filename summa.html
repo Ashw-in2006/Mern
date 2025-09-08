@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline CSS Example</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .parent {
+    display: flex;
+    justify-content: center;
+}
+
+        .child {
+            height: 200px;
+            width: 33.3%;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .text-block {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: purple;
+            text-align: center;
+        }
+        p {
+            color: orange;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="parent">
+    <div class="child red"><h1>This is a purple, centered heading.</h1></div>
+    <div class="child blue"></div>
+    <div class="child green"> <h1>This is an orange, italicized paragraph.</h2>
+    </div>
+    <div class="text-block">
+        
+       </div>
+</div>
+
+</body>
+</html>
