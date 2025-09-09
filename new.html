@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline CSS Example</title>
+</head>
+<body>
+    <h1 style="color: blue; font-family: Arial;">This is a blue heading.</h1>
+    <p style="color: green; font-size: 18px;">This is a green paragraph with a larger font size.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedded CSS Example</title>
+    <script>
+    //console.log("hello"); 
+    //a=10;
+    //b=30;
+    //console.log(a+b);
+    let str = "Hello, World!";         // String
+    let num = 42;                      // Number
+    let bigInt = 12345678901234567890n; // BigInt
+    let bool = true;                   // Boolean
+    let undef;                         // Undefined
+    let nul = null;                    // Null
+    let sym = Symbol("unique");        // Symbol
+
+    // Non-Primitive Data Types
+    let obj = { name: "Alice", age: 30 }; // Object
+    let arr = [1, 2, 3];                  // Array (object)
+    let date = new Date();               // Date object
+    let func = function() { return "I'm a function"; }; // Function
+
+    // Display all values
+    let output = `
+String: ${str}
+Number: ${num}
+BigInt: ${bigInt}
+Boolean: ${bool}
+Undefined: ${undef}
+Symbol: ${sym.toString()}
+Array: ${arr}
+Date: ${date}
+Function: ${func()}
+    `;
+
+    document.getElementById("output").textContent = output;
+  
+    </script>
+    <style>
+	*{
+padding : 0;
+margin : 0;
+}
+.parent{
+display : flex;
+}
+.child{
+height : 200px;
+width : 33.3%;
+}
+.red{
+background-color: red;
+}
+.green{
+background-color: green;
+}
+.blue{
+background-color: blue;
+}
+        h1 {
+            color: purple;
+            text-align: center;
+        }
+        p {
+            color: orange;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a purple, centered heading.</h1>
+    <p>This is an orange, italicized paragraph.</p>
+</body>
+</html>
