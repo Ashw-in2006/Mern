@@ -1,10 +1,10 @@
-function Title() {
-  return (
-    <div>
-      <h1>KALILINUIX</h1>
-      <img src="/logo.png" alt="Logo" width="700" />
-      
-    </div>
-  );
+import React from "react";
+import './Title.css'
+function Title(){
+    return(
+        <div className="center-heading">
+            <h1>Heading</h1>
+        </div>
+    )
 }
 export default Title;
